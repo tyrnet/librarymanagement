@@ -23,7 +23,7 @@ The system provides CRUD (Create, Read, Update, Delete) functionality for librar
 1. **Clone or extract** the project files.
    ```bash
    git clone https://github.com/tyrnet/librarymanagement.git
-. **Navigate to the project folder**
+2. **Navigate to the project folder**
    ```bash
    cd librarymanagement
    ```
