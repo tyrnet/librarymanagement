@@ -23,3 +23,36 @@ The system provides CRUD (Create, Read, Update, Delete) functionality for librar
 1. **Clone or extract** the project files.
    ```bash
    git clone https://github.com/tyrnet/librarymanagement.git
+. **Navigate to the project folder**
+   ```bash
+   cd librarymanagement
+   ```
+
+3. **Install dependencies**
+   ```bash
+   composer install
+   npm install
+   ```
+
+4. **Copy the environment file**
+   ```bash
+   cp .env.example .env
+   ```
+
+5. **Generate application key**
+   ```bash
+   php artisan key:generate
+   ```
+
+6. **Set up database**
+   - Update your `.env` file with your database credentials.
+   - Run migrations:
+     ```bash
+     php artisan migrate
+     ```
+
+7. **Run the server**
+   ```bash
+   php artisan serve
+   ```
+   The app will be available at `http://127.0.0.1:8000`.
